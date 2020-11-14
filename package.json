@@ -1,0 +1,20 @@
+{
+  "name": "@dutkan/alphabetcase",
+  "version": "0.1.0",
+  "description": "My first monorepo package",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "clean": "lerna clean",
+    "ls": "lerna ls"
+  },
+  "keywords": [
+    "alphabetcase",
+    "uppercase",
+    "lowercase"
+  ],
+  "author": "olgundutkan <olgundutkan@gmail.com> (https://github.com/olgundutkan)",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

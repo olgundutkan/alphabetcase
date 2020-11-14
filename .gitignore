@@ -1,0 +1,11 @@
+# Logs
+*.log
+npm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Compiled directories
+build
+dist
