@@ -10,7 +10,7 @@ module.exports = {
   devtool: "inline-source-map",
   devServer: {
     contentBase: "./dist",
-    port: 8081,
+    port: 8080,
   },
   output: {
     filename: "[name].bundle.js",
@@ -21,7 +21,7 @@ module.exports = {
       cleanStaleWebpackAssets: false,
     }),
     new HtmlWebpackPlugin({
-      title: "Uppercase",
+      title: "Lowercase",
       template: "_templates_/index.html",
       inject: "body",
     }),

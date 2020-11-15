@@ -1,7 +1,7 @@
 const { version } = require("../package.json");
 export class Uppercase {
   constructor() {
-    console.log("Welcome to My First NPM Package!")
+    console.log("Welcome to My Second NPM Package!")
   }
   version = () => {
     return `${version}`;
