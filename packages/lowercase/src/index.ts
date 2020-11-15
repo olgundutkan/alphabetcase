@@ -8,6 +8,8 @@ export class Uppercase {
   };
 }
 
+// TODO: test
+
 import { WindowInterface } from "./interfaces/window";
 
 (window as WindowInterface & typeof globalThis).Uppercase = new Uppercase();

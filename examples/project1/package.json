@@ -1,9 +1,9 @@
 {
   "name": "project1",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "private": true,
   "dependencies": {
-    "@dutkan/uppercase": "^0.1.3",
+    "@dutkan/uppercase": "^0.1.6",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",

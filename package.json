@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "description": "My first monorepo package",
   "scripts": {
-    "bootstrap": "lerna bootstrap --force-local --hoist",
+    "bootstrap": "lerna bootstrap --force-local && lerna link --force-local",
     "exec": "lerna exec npm install",
     "compile": "lerna run --parallel compile",
     "clean": "lerna clean",
     "version": "lerna version --conventional-commits",
     "watch": "lerna run --parallel watch",
+    "publish": "lerna publish --force-publish",
     "ls": "lerna ls"
   },
   "keywords": [

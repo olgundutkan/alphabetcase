@@ -1,10 +1,11 @@
 {
+  "lerna": "2.0.0-rc.4",
   "packages": ["packages/*", "examples/*"],
   "version": "independent",
   "npmClient": "npm",
   "command": {
     "publish": {
-      "ignoreFiles": ["examples/*", "*.md"]
+      "ignoreChanges": ["examples/*", "*.md"]
     }
   }
 }
