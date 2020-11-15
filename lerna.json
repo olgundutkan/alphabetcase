@@ -1,13 +1,14 @@
 {
-  "lerna": "2.0.0-rc.4",
-  "packages": ["packages/*", "examples/*"],
+  "lerna": "3.22.1",
+  "packages": ["packages/*"],
   "version": "independent",
   "npmClient": "npm",
   "command": {
     "publish": {
-      "ignoreChanges": ["examples/*", "*.md"]
+      "ignoreChanges": ["examples/**/*", "*.md"]
     },
     "bootstrap": {
+      "allowBranch": "master",
       "npmClientArgs": ["--no-package-lock"]
     }
   }
