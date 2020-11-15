@@ -5,6 +5,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
     "clean": "lerna clean",
+    "start": "lerna run start",
     "ls": "lerna ls"
   },
   "keywords": [
