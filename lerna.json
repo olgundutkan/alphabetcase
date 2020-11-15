@@ -6,6 +6,9 @@
   "command": {
     "publish": {
       "ignoreChanges": ["examples/*", "*.md"]
+    },
+    "bootstrap": {
+      "npmClientArgs": ["--no-package-lock"]
     }
   }
 }
